@@ -60,39 +60,27 @@ include_once "dbConfig.php";
 
                    <div class="card">
                     <div class="card-body">
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					Welcome to PHP application
-					<form action="index.php" method="GET">
-     Num1: <input type="number" name="num1">
-     Num2: <input type="number" name="num2">
-     <input type="submit">
-</form>
+					<h1><center>Welcome to PHP application</center></h1>
+					
+					<body>
 
-<?php
-     $num1 = $_GET["num1"];
-     $num2 = $_GET["num2"];
-     echo $num1 + $num2;
-?>
+  <form action = "index.php" method = "post">
+
+  Value 1: <input type = "text" name = "val1" size = "10">
+  Value 2: <input type = "text" name = "val2" size = "10">
+  <br>
+  Calculation: <br>
+  <input type = "radio" name = "calc" value = "add"> Add
+  <input type = "radio" name = "calc" value = "sub"> Subtract
+  <input type = "radio" name = "calc" value = "mul"> Multiply
+  <input type = "radio" name = "calc" value = "div"> Divide 
+  <hr>
+  <input type = "submit" value = "Calculate"> 
+  <input type = "reset" value = "Clear">
+
+  </form>
+
+ </body>
                     </div>
                     
                 </div>
