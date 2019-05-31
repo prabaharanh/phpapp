@@ -8,7 +8,7 @@ include_once "dbConfig.php";
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title> Dashboard </title>
+        <title> PHP Application </title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" </script>
@@ -61,6 +61,17 @@ include_once "dbConfig.php";
                    <div class="card">
                     <div class="card-body">
 					Welcome to PHP application
+					<form action="site.php" method="GET">
+     Num1: <input type="number" name="num1">
+     Num2: <input type="number" name="num2">
+     <input type="submit">
+</form>
+
+<?php
+     $num1 = $_GET["num1"];
+     $num2 = $_GET["num2"];
+     echo $num1 + $num2;
+?>
                     </div>
                     
                 </div>
