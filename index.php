@@ -61,6 +61,27 @@ include_once "dbConfig.php";
                    <div class="card">
                     <div class="card-body">
 					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
+					Welcome to PHP application
 					<form action="site.php" method="GET">
      Num1: <input type="number" name="num1">
      Num2: <input type="number" name="num2">
