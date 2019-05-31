@@ -60,7 +60,7 @@ include_once "dbConfig.php";
 
                    <div class="card">
                     <div class="card-body">
-					Welcome to PHP app
+					Welcome to PHP application
                     </div>
                     
                 </div>
