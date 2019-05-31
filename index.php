@@ -82,7 +82,7 @@ include_once "dbConfig.php";
 					Welcome to PHP application
 					Welcome to PHP application
 					Welcome to PHP application
-					<form action="site.php" method="GET">
+					<form action="index.php" method="GET">
      Num1: <input type="number" name="num1">
      Num2: <input type="number" name="num2">
      <input type="submit">
