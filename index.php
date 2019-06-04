@@ -79,6 +79,7 @@ include_once "dbConfig.php";
   <input type = "reset" value = "Clear">
 
   </form>
+  <br>
 
  </body>
                     </div>
