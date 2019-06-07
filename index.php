@@ -61,6 +61,10 @@ include_once "dbConfig.php";
                    <div class="card">
                     <div class="card-body">
 					<h1><center>Welcome to PHP application</center></h1>
+					<h1><center>Welcome to PHP application</center></h1>
+					<h1><center>Welcome to PHP application</center></h1>
+					<h1><center>Welcome to PHP application</center></h1>
+					<h1><center>Welcome to PHP application</center></h1>
 					
 					<body>
 
